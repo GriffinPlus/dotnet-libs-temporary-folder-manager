@@ -1,0 +1,14 @@
+﻿.\GriffinPlus.Lib.TemporaryFolderManager.dll
+.\GriffinPlus.Lib.TemporaryFolderManager.pdb
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.dll
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.pdb
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.xml
+.\GriffinPlus.Lib.TemporaryFolderManager.xml
+.\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+.\xunit.abstractions.dll
+.\xunit.assert.dll
+.\xunit.core.dll
+.\xunit.execution.desktop.dll
+.\xunit.runner.reporters.net452.dll
+.\xunit.runner.utility.net452.dll
+.\xunit.runner.visualstudio.testadapter.dll

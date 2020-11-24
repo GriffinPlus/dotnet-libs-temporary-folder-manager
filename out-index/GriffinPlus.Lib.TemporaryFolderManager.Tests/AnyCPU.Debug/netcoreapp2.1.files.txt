@@ -1,0 +1,14 @@
+﻿.\GriffinPlus.Lib.TemporaryFolderManager.dll
+.\GriffinPlus.Lib.TemporaryFolderManager.pdb
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.deps.json
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.dll
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.pdb
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.runtimeconfig.dev.json
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.runtimeconfig.json
+.\GriffinPlus.Lib.TemporaryFolderManager.Tests.xml
+.\GriffinPlus.Lib.TemporaryFolderManager.xml
+.\testhost.dll
+.\testhost.exe
+.\xunit.runner.reporters.netcoreapp10.dll
+.\xunit.runner.utility.netcoreapp10.dll
+.\xunit.runner.visualstudio.dotnetcore.testadapter.dll

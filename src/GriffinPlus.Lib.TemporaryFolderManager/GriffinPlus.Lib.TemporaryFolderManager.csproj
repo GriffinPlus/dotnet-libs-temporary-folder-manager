@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net461; netstandard2.0</TargetFrameworks>
 		<AssemblyName>GriffinPlus.Lib.TemporaryFolderManager</AssemblyName>
-		<RootNamespace>GriffinPlus.Lib.TemporaryFolderManager</RootNamespace>
+		<RootNamespace>GriffinPlus.Lib</RootNamespace>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
