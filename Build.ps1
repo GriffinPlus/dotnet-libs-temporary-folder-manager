@@ -6,7 +6,7 @@ Import-Module "$ScriptDir\build.vs\Clean.psm1"
 Import-Module "$ScriptDir\build.vs\RestoreNuGet.psm1"
 Import-Module "$ScriptDir\build.vs\PreBuildWizard.psm1"
 Import-Module "$ScriptDir\build.vs\Build.psm1"
-Import-Module "$ScriptDir\build.vs\LicenseCollector.psm1"
+Import-Module "$ScriptDir\build.vs\PackNuGet.psm1"
 
 # -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -14,9 +14,7 @@ Import-Module "$ScriptDir\build.vs\LicenseCollector.psm1"
 # configuration
 # #################################
 
-[String]  $ProductName          = "TemporaryFolderManager"
-[String]  $SolutionPath         = "$ScriptDir\TemporaryFolderManager.sln"
-[String]  $BuildOutputPath      = "$ScriptDir\_build\TemporaryFolderManager"
+[String]  $SolutionPath = "$ScriptDir\TemporaryFolderManager.sln"
 
 $MsbuildConfigurations = @('Debug','Release')
 $MsbuildPlatforms = @('Any CPU')
@@ -49,5 +47,8 @@ Build `
 	-MsbuildPlatforms $MsbuildPlatforms `
 	-SkipConsistencyCheck `
 	-PauseOnError
+
+# pack nuget packages
+PackNuGet -PauseOnError
 
 Read-Host "Press ANY key..."
