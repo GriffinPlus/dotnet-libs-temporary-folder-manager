@@ -4,7 +4,7 @@
 		<id>GriffinPlus.Lib.TemporaryFolderManager</id>
 		<version>$version$</version>
 		<authors>Sascha Falk</authors>
-		<copyright>Copyright (c) 2020 Sascha Falk and Contributors</copyright>
+		<copyright>Copyright (c) 2021 Sascha Falk and Contributors</copyright>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Helper library for managing temporary folders.</description>
 		<license type="expression">MIT</license>
@@ -19,11 +19,11 @@
 	</metadata>
 	<files>
 		<file src="..\..\..\res\nuget-icon.png" target="images\" />
-		<file src="..\..\..\_build\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\netstandard2.0\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\netstandard2.0"/>
-		<file src="..\..\..\_build\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\netstandard2.0\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\netstandard2.0"/>
-		<file src="..\..\..\_build\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\netstandard2.0\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\netstandard2.0"/>
-		<file src="..\..\..\_build\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net461"/>
-		<file src="..\..\..\_build\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net461"/>
-		<file src="..\..\..\_build\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net461"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\netstandard2.0\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\netstandard2.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\netstandard2.0\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\netstandard2.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\netstandard2.0\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\netstandard2.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net461"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net461"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net461"/>
 	</files>
 </package>
