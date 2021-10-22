@@ -25,8 +25,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GriffinPlus.Lib.TemporaryFo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build.vs", "build.vs", "{AEE0BA57-7132-47A7-90CD-4EB8A17307F0}"
 	ProjectSection(SolutionItems) = preProject
-		build.vs\AssemblyInfoVersion.cs = build.vs\AssemblyInfoVersion.cs
-		build.vs\AssemblyInfoVersion.mcpp = build.vs\AssemblyInfoVersion.mcpp
 		build.vs\Build.psm1 = build.vs\Build.psm1
 		build.vs\Clean.psm1 = build.vs\Clean.psm1
 		build.vs\Configuration.psm1 = build.vs\Configuration.psm1
