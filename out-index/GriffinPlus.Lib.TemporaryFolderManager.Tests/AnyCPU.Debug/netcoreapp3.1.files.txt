@@ -1,4 +1,5 @@
-﻿.\GriffinPlus.Lib.TemporaryFolderManager.dll
+﻿.msCoverageSourceRootsMapping_GriffinPlus.Lib.TemporaryFolderManager.Tests
+.\GriffinPlus.Lib.TemporaryFolderManager.dll
 .\GriffinPlus.Lib.TemporaryFolderManager.pdb
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.deps.json
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.dll
@@ -16,7 +17,6 @@
 .\Microsoft.VisualStudio.TestPlatform.Common.dll
 .\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 .\Newtonsoft.Json.dll
-.\NuGet.Frameworks.dll
 .\testhost.dll
 .\testhost.exe
 .\xunit.abstractions.dll

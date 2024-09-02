@@ -4,7 +4,7 @@
 		<id>GriffinPlus.Lib.TemporaryFolderManager</id>
 		<version>$version$</version>
 		<authors>Sascha Falk</authors>
-		<copyright>Copyright (c) 2021 Sascha Falk and Contributors</copyright>
+		<copyright>Copyright (c) 2024 Sascha Falk and Contributors</copyright>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Helper library for managing temporary folders.</description>
 		<license type="expression">MIT</license>
@@ -14,6 +14,14 @@
 			<group targetFramework="net461">
 			</group>
 			<group targetFramework="netstandard2.0">
+			</group>
+			<group targetFramework="net5.0">
+			</group>
+			<group targetFramework="net6.0">
+			</group>
+			<group targetFramework="net7.0">
+			</group>
+			<group targetFramework="net8.0">
 			</group>
 		</dependencies>
 	</metadata>
@@ -25,5 +33,17 @@
 		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net461"/>
 		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net461"/>
 		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net461\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net461"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net5.0\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net5.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net5.0\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net5.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net5.0\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net5.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net6.0\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net6.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net6.0\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net6.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net6.0\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net6.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net7.0\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net7.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net7.0\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net7.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net7.0\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net7.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net8.0\GriffinPlus.Lib.TemporaryFolderManager.dll" target="lib\net8.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net8.0\GriffinPlus.Lib.TemporaryFolderManager.pdb" target="lib\net8.0"/>
+		<file src="..\..\..\_build\.out\GriffinPlus.Lib.TemporaryFolderManager\AnyCPU.Release\net8.0\GriffinPlus.Lib.TemporaryFolderManager.xml" target="lib\net8.0"/>
 	</files>
 </package>

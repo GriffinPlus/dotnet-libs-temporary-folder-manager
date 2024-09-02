@@ -1,17 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFrameworks>net461; netcoreapp2.1; netcoreapp3.1; net5.0</TargetFrameworks>
-    <CheckEolTargetFramework>false</CheckEolTargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net461; net48; netcoreapp2.2; netcoreapp3.1; net5.0; net6.0; net7.0; net8.0</TargetFrameworks>
+		<CheckEolTargetFramework>false</CheckEolTargetFramework>
+		<NoWarn>$(NoWarn);NU1902;NU1903</NoWarn>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GriffinPlus.Lib.TemporaryFolderManager\GriffinPlus.Lib.TemporaryFolderManager.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\GriffinPlus.Lib.TemporaryFolderManager\GriffinPlus.Lib.TemporaryFolderManager.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PolySharp" Version="1.14.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 
 </Project>

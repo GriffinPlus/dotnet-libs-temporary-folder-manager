@@ -4,7 +4,6 @@
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.deps.json
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.dll
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.pdb
-.\GriffinPlus.Lib.TemporaryFolderManager.Tests.runtimeconfig.dev.json
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.runtimeconfig.json
 .\GriffinPlus.Lib.TemporaryFolderManager.Tests.xml
 .\GriffinPlus.Lib.TemporaryFolderManager.xml
@@ -25,7 +24,7 @@
 .\xunit.execution.dotnet.dll
 .\xunit.runner.reporters.netcoreapp10.dll
 .\xunit.runner.utility.netcoreapp10.dll
-.\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+.\xunit.runner.visualstudio.testadapter.dll
 .\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 .\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 .\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll

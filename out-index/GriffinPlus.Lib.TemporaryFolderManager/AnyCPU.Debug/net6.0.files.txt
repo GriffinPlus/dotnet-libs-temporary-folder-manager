@@ -1,0 +1,4 @@
+﻿.\GriffinPlus.Lib.TemporaryFolderManager.deps.json
+.\GriffinPlus.Lib.TemporaryFolderManager.dll
+.\GriffinPlus.Lib.TemporaryFolderManager.pdb
+.\GriffinPlus.Lib.TemporaryFolderManager.xml

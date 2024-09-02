@@ -3,7 +3,6 @@
 .\GriffinPlus.Lib.TemporaryFolderManager.Demo.dll.config
 .\GriffinPlus.Lib.TemporaryFolderManager.Demo.exe
 .\GriffinPlus.Lib.TemporaryFolderManager.Demo.pdb
-.\GriffinPlus.Lib.TemporaryFolderManager.Demo.runtimeconfig.dev.json
 .\GriffinPlus.Lib.TemporaryFolderManager.Demo.runtimeconfig.json
 .\GriffinPlus.Lib.TemporaryFolderManager.Demo.xml
 .\GriffinPlus.Lib.TemporaryFolderManager.dll

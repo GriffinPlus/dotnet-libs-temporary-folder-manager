@@ -17,9 +17,9 @@ namespace GriffinPlus.Lib
 	/// </summary>
 	public class TemporaryFolderManager : ITemporaryFolderManager
 	{
-		private static readonly Regex sLockFileRegex = new Regex(@"^\[TMPDIR\] (?<guid>[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})$", RegexOptions.Compiled);
-		private static readonly Lazy<TemporaryFolderManager> sDefault = new Lazy<TemporaryFolderManager>(() => new TemporaryFolderManager(), LazyThreadSafetyMode.ExecutionAndPublication);
-		private readonly List<TemporaryFolder> mFolders;
+		private static readonly Regex                        sLockFileRegex = new(@"^\[TMPDIR\] (?<guid>[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})$", RegexOptions.Compiled);
+		private static readonly Lazy<TemporaryFolderManager> sDefault       = new(() => new TemporaryFolderManager(), LazyThreadSafetyMode.ExecutionAndPublication);
+		private readonly        List<TemporaryFolder>        mFolders;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TemporaryFolderManager"/> class.
@@ -27,10 +27,10 @@ namespace GriffinPlus.Lib
 		/// <param name="path">Path of the base folder temporary folders are created beneath (may contain environment variables).</param>
 		public TemporaryFolderManager(string path = null)
 		{
-			if (path == null) path = Path.Combine(Path.GetTempPath(), "Griffin+ Temporary Folders");
+			path ??= Path.Combine(Path.GetTempPath(), "Griffin+ Temporary Folders");
 			TemporaryFolderPath = Path.GetFullPath(Environment.ExpandEnvironmentVariables(path));
 			Directory.CreateDirectory(TemporaryFolderPath);
-			mFolders = new List<TemporaryFolder>();
+			mFolders = [];
 			CleanupOrphanedFolders();
 		}
 
@@ -109,7 +109,7 @@ namespace GriffinPlus.Lib
 							}
 
 							// opening the folder lock file succeeded
-							// => directory is not in use any more
+							// => directory is not in use anymore
 							// => try to remove the directory
 							Directory.Delete(directoryPath, true);
 
